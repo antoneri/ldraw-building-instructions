@@ -10,7 +10,7 @@ to build a Lego model from an .ldr file.
 ## Requirements
 - [L3P](http://www.hassings.dk/l3/l3p.html)
 - [POW-Ray](http://www.powray.org)
-- [LDraw](http://www.ldraw.org/parts/latest-parts.html)
+- [LDraw parts library](http://www.ldraw.org/parts/latest-parts.html)
 - Perl
 
 ## Usage
