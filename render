@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+
+# Change these two lines
+LDRAWDIR=../ldraw
+L3P=./l3p
+
+BGCOLOR="-b1,1,1"
+CAMERAPOS="-cla0,-100,0 -cc-300,-300,-300"
+LIGHTS="-lsl"
+OPTS="$BGCOLOR $CAMERAPOS $LIGHTS"
+
+FILENAME=$(basename "$1")
+POVFILE=${FILENAME%.*}.pov
+
+$L3P $OPTS -ldd$LDRAWDIR -o $1
+povray $POVFILE
+
