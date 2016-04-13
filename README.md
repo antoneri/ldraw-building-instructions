@@ -3,9 +3,9 @@
 A small set of scripts to generate a series of images showing how
 to build a Lego model from an .ldr file.
 
-!(Step 1)[samples/step0026.png)
-!(Step 2)[samples/step0027.png)
-!(Step 3)[samples/step0028.png)
+![Step 1](samples/step0026.png)
+![Step 2](samples/step0027.png)
+![Step 3](samples/step0028.png)
 
 ## Requirements
 - [L3P](http://www.hassings.dk/l3/l3p.html)
