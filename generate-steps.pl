@@ -18,7 +18,7 @@ sub main {
     next if (/^0/gms);
     my @line = split(' ');
 
-    $line[$Y] += $RAISE;
+    $line[$Y] += $RAISE unless $step == 0;
 
     open(my $fh, '>', sprintf $fmt, $step) or die('Could not open file!');
 
